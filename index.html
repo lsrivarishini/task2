@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GWING - Week 2 Projects</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <section class="contact-form-section">
+        <h2>Contact Us</h2>
+        <form id="contactForm">
+            <input type="text" id="name" placeholder="Your Name" required>
+            <input type="email" id="email" placeholder="Your Email" required>
+            <textarea id="message" placeholder="Your Message" required></textarea>
+            <button type="submit">Send Message</button>
+            <p id="formStatus"></p>
+        </form>
+    </section>
+
+    <section class="image-slider-section">
+        <h2>Image Slider</h2>
+        <div class="slider">
+            <button class="prev" onclick="prevSlide()">❮</button>
+            <img id="slider-image" src="img1.jpg" alt="Slide">
+            <button class="next" onclick="nextSlide()">❯</button>
+        </div>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
